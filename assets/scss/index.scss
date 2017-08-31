@@ -1,0 +1,292 @@
+@function rem($px) {
+    //$px为需要转换的大小
+    @return $px / 108px * 1rem; // 108为移动端的分辨率
+}
+
+.header {
+    height: rem(364px);
+    background-color: #0094ff;
+    .topbar {
+        display: flex;
+        justify-content: space-between;
+        height: rem(70px);
+        padding: 0 rem(38px);
+        padding-top: rem(40px);
+
+        .adds-a {
+            .iconfont {
+                color: #fff;
+                font-size: rem(50px);
+            }
+            >span {
+                font-size: rem(50px);
+                color: #fff;
+            }
+        }
+        .adds-b {
+            display: flex;
+            justify-content: space-between;
+            .du {
+                font-size: rem(30px);
+                color: #fff;
+                span {
+                    display: inline-block;
+                    padding-left: rem(24px);
+                    margin-top: rem(6px);
+                    font-size: rem(28px);
+                }
+            }
+            .png {
+                img {
+                    //width: rem(80px);
+                    height: rem(60px);
+                }
+            }
+        }
+    }
+    .search {
+
+
+        height: rem(106px);
+        background-color: #fff;
+        margin: 0 rem(38px);
+        margin-top: rem(40px);
+        text-align: center;
+        line-height: rem(110px);
+        font-size: rem(38px);
+        color: #666666;
+        border-radius: rem(2px);
+        .iconfont {
+            font-size: rem(38px);
+            color: #666666;
+            padding-right: rem(10px);
+        }
+    }
+    .nav-big {
+        height: rem(36px);
+        margin: 0 rem(38px);
+        overflow: hidden;
+        padding-top: rem(30px);
+
+        >.nav-text {
+            width: rem(1182px);
+            height: rem(30px);
+            line-height: rem(30px);
+            padding-top: rem(6px);
+            word-wrap: keep-all;
+
+
+            >a {
+
+                padding-right: rem(56px);
+                font-size: rem(36px);
+                color: #fff;
+            }
+        }
+    }
+}
+
+.tion {
+    position: relative;
+    height: rem(512px);
+    padding: 0 rem(38px);
+
+    .meishi-a {
+        position: absolute;
+        left: 0;
+        top: rem(42px);
+        display: flex;
+        flex-wrap: wrap;
+        height: rem(386px);
+        width: 100%;
+
+
+        >a {
+            display: inline-block;
+            height: rem(152px);
+            width: 25%;
+            text-align: center;
+            font-size: rem(32px);
+            color: #666666;
+            .logo {
+                >img {
+
+                    height: rem(96px);
+                }
+            }
+        }
+    }
+    .yuan {
+        position: absolute;
+        left: 45%;
+        top: 90%;
+        .yuanyi {
+            float: left;
+            margin-left: rem(26px);
+            width: rem(26px);
+            height: rem(26px);
+            border-radius: 50%;
+            background: #ddd;
+        }
+    }
+}
+
+.hei {
+    height: rem(30px);
+    border-bottom: rem(2px) #eee solid;
+    background-color: #f5f5f5;
+}
+
+.a {
+
+    h3 {
+        font-size: rem(44px);
+        font-weight: bold;
+        padding: 0 rem(38px);
+        padding-top: rem(48px);
+    }
+}
+
+.b {
+    height: 100%;
+    .c {
+        padding-top: rem(48px);
+        padding-bottom: rem(44px);
+        height: rem(314px);
+        border-bottom: rem(1px) #818181 solid;
+        display: flex; // margin-bottom: rem(70px);
+        .good {
+            height: rem(314px);
+
+            padding: 0 rem(38px);
+            >img {
+                height: rem(162px);
+            }
+        }
+        .leirong {
+            width: 100%;
+
+            height: rem(314px);
+            padding: 0 rem(38px);
+            .yi {
+                display: flex;
+                justify-content: space-between;
+                span {
+                    color: #333;
+                    font-size: rem(44px);
+                    font-weight: 700;
+                    display: inline-block;
+                }
+                .zi {
+
+                    width: rem(46px);
+                    height: rem(46px);
+                    border-radius: rem(4px);
+                    font-weight: 100;
+                    font-size: rem(36px);
+                    border: 1px solid #666;
+                    color: #666;
+                    text-align: center;
+                    line-height: rem(46px)
+                }
+            }
+            .pingfen {
+                padding-top: rem(28px);
+                span {
+                    color: #666;
+                    font-size: rem(28px);
+                    padding-right: rem(20px);
+                    >.iconfont {
+                        color: #ffbd00;
+                        font-size: rem(28px);
+                    }
+                }
+            }
+            .f {
+                display: flex;
+                justify-content: space-between;
+                padding-top: rem(32px);
+                padding-bottom: rem(20px);
+                border-bottom: 1px #666 dotted;
+                .one {
+                    >span {
+                        color: #666;
+                        font-size: rem(26px);
+                    }
+                }
+            }
+            .jian {
+
+                padding-top: rem(14px);
+
+
+                .top {
+                    position: relative;
+                    padding-top: rem(14px);
+                    .huodong {
+                        float: right;
+                        width: rem(180px);
+                        >span {
+                            font-size: rem(32px);
+                            color: #666;
+                            .iconfont {
+                                color: #666;
+                                font-size: rem(44px);
+                            }
+                        }
+                    }
+
+                    >span {
+                        color: #666666;
+                        font-size: rem(36px);
+
+                        .iconfont {
+                            font-size: rem(48px);
+                            color: #70bc46;
+                        }
+                    }
+                    .hong {
+                        .iconfont {
+                            color: #f07373;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.foo {
+
+    position: absolute;
+
+    top: rem(1400px);
+    left: 0;
+    height: rem(146px);
+    width: 100%;
+    background-color: #fff;
+    box-shadow: rem(1px) rem(-4px) rem(20px) #666;
+    position: fixed;
+    .button {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        >a {
+            display: inline-block;
+            height: rem(146px);
+            width: 25%;
+            text-align: center;
+            padding-top: rem(28px);
+            color: #25aaff;
+            .iconfont {
+                font-size: rem(58px);
+            }
+            >span {
+                display: inline-block;
+                margin-top: rem(12px);
+                color: #25aaff;
+                font-size: rem(26px);
+            }
+        }
+    }
+}

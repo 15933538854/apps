@@ -1,0 +1,293 @@
+.header {
+  height: 3.37037rem;
+  background-color: #0094ff;
+}
+
+.header .topbar {
+  display: flex;
+  justify-content: space-between;
+  height: 0.64815rem;
+  padding: 0 0.35185rem;
+  padding-top: 0.37037rem;
+}
+
+.header .topbar .adds-a .iconfont {
+  color: #fff;
+  font-size: 0.46296rem;
+}
+
+.header .topbar .adds-a > span {
+  font-size: 0.46296rem;
+  color: #fff;
+}
+
+.header .topbar .adds-b {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .topbar .adds-b .du {
+  font-size: 0.27778rem;
+  color: #fff;
+}
+
+.header .topbar .adds-b .du span {
+  display: inline-block;
+  padding-left: 0.22222rem;
+  margin-top: 0.05556rem;
+  font-size: 0.25926rem;
+}
+
+.header .topbar .adds-b .png img {
+  height: 0.55556rem;
+}
+
+.header .search {
+  height: 0.98148rem;
+  background-color: #fff;
+  margin: 0 0.35185rem;
+  margin-top: 0.37037rem;
+  text-align: center;
+  line-height: 1.01852rem;
+  font-size: 0.35185rem;
+  color: #666666;
+  border-radius: 0.01852rem;
+}
+
+.header .search .iconfont {
+  font-size: 0.35185rem;
+  color: #666666;
+  padding-right: 0.09259rem;
+}
+
+.header .nav-big {
+  height: 0.33333rem;
+  margin: 0 0.35185rem;
+  overflow: hidden;
+  padding-top: 0.27778rem;
+}
+
+.header .nav-big > .nav-text {
+  width: 10.94444rem;
+  height: 0.27778rem;
+  line-height: 0.27778rem;
+  padding-top: 0.05556rem;
+  word-wrap: keep-all;
+}
+
+.header .nav-big > .nav-text > a {
+  padding-right: 0.51852rem;
+  font-size: 0.33333rem;
+  color: #fff;
+}
+
+.tion {
+  position: relative;
+  height: 4.74074rem;
+  padding: 0 0.35185rem;
+}
+
+.tion .meishi-a {
+  position: absolute;
+  left: 0;
+  top: 0.38889rem;
+  display: flex;
+  flex-wrap: wrap;
+  height: 3.57407rem;
+  width: 100%;
+}
+
+.tion .meishi-a > a {
+  display: inline-block;
+  height: 1.40741rem;
+  width: 25%;
+  text-align: center;
+  font-size: 0.2963rem;
+  color: #666666;
+}
+
+.tion .meishi-a > a .logo > img {
+  height: 0.88889rem;
+}
+
+.tion .yuan {
+  position: absolute;
+  left: 45%;
+  top: 90%;
+}
+
+.tion .yuan .yuanyi {
+  float: left;
+  margin-left: 0.24074rem;
+  width: 0.24074rem;
+  height: 0.24074rem;
+  border-radius: 50%;
+  background: #ddd;
+}
+
+.hei {
+  height: 0.27778rem;
+  border-bottom: 0.01852rem #eee solid;
+  background-color: #f5f5f5;
+}
+
+.a h3 {
+  font-size: 0.40741rem;
+  font-weight: bold;
+  padding: 0 0.35185rem;
+  padding-top: 0.44444rem;
+}
+
+.b {
+  height: 100%;
+}
+
+.b .c {
+  padding-top: 0.44444rem;
+  padding-bottom: 0.40741rem;
+  height: 2.90741rem;
+  border-bottom: 0.00926rem #818181 solid;
+  display: flex;
+}
+
+.b .c .good {
+  height: 2.90741rem;
+  padding: 0 0.35185rem;
+}
+
+.b .c .good > img {
+  height: 1.5rem;
+}
+
+.b .c .leirong {
+  width: 100%;
+  height: 2.90741rem;
+  padding: 0 0.35185rem;
+}
+
+.b .c .leirong .yi {
+  display: flex;
+  justify-content: space-between;
+}
+
+.b .c .leirong .yi span {
+  color: #333;
+  font-size: 0.40741rem;
+  font-weight: 700;
+  display: inline-block;
+}
+
+.b .c .leirong .yi .zi {
+  width: 0.42593rem;
+  height: 0.42593rem;
+  border-radius: 0.03704rem;
+  font-weight: 100;
+  font-size: 0.33333rem;
+  border: 1px solid #666;
+  color: #666;
+  text-align: center;
+  line-height: 0.42593rem;
+}
+
+.b .c .leirong .pingfen {
+  padding-top: 0.25926rem;
+}
+
+.b .c .leirong .pingfen span {
+  color: #666;
+  font-size: 0.25926rem;
+  padding-right: 0.18519rem;
+}
+
+.b .c .leirong .pingfen span > .iconfont {
+  color: #ffbd00;
+  font-size: 0.25926rem;
+}
+
+.b .c .leirong .f {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0.2963rem;
+  padding-bottom: 0.18519rem;
+  border-bottom: 1px #666 dotted;
+}
+
+.b .c .leirong .f .one > span {
+  color: #666;
+  font-size: 0.24074rem;
+}
+
+.b .c .leirong .jian {
+  padding-top: 0.12963rem;
+}
+
+.b .c .leirong .jian .top {
+  position: relative;
+  padding-top: 0.12963rem;
+}
+
+.b .c .leirong .jian .top .huodong {
+  float: right;
+  width: 1.66667rem;
+}
+
+.b .c .leirong .jian .top .huodong > span {
+  font-size: 0.2963rem;
+  color: #666;
+}
+
+.b .c .leirong .jian .top .huodong > span .iconfont {
+  color: #666;
+  font-size: 0.40741rem;
+}
+
+.b .c .leirong .jian .top > span {
+  color: #666666;
+  font-size: 0.33333rem;
+}
+
+.b .c .leirong .jian .top > span .iconfont {
+  font-size: 0.44444rem;
+  color: #70bc46;
+}
+
+.b .c .leirong .jian .top .hong .iconfont {
+  color: #f07373;
+}
+
+.foo {
+  position: absolute;
+  top: 12.96296rem;
+  left: 0;
+  height: 1.35185rem;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0.00926rem -0.03704rem 0.18519rem #666;
+  position: fixed;
+}
+
+.foo .button {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.foo .button > a {
+  display: inline-block;
+  height: 1.35185rem;
+  width: 25%;
+  text-align: center;
+  padding-top: 0.25926rem;
+  color: #25aaff;
+}
+
+.foo .button > a .iconfont {
+  font-size: 0.53704rem;
+}
+
+.foo .button > a > span {
+  display: inline-block;
+  margin-top: 0.11111rem;
+  color: #25aaff;
+  font-size: 0.24074rem;
+}
